@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/main3.css">
+<link rel="stylesheet" href="css/aos.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!--    구글폰트   -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope&family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+
+<!--   폰트 어썸   -->
+<script src="https://kit.fontawesome.com/85b4ce6da2.js" crossorigin="anonymous"></script>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+       
+    </style>
+    
+    <script>
+//        $(document).scroll(function(){
+        //Get the button
+var mybutton = document.getElementById("go-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+//                function(){        
+//                $('html, body').animate({scrollTop: 0}, 400)return false;
+//            });
+//        });
+    </script>
+</head>
+
+
+
+<body>
+   <div class="header_wrap">
+        <header>
+            <h1 id="logo"><img src="img/usm_logo.jpg" alt=""></h1>
+            <p id="menu">
+                ABOUT USM<br>
+                PRODUCTS<br>
+                INSPIRATIONS<br>
+                GALLERY<br>
+                CONTACT US
+            </p>
+        </header>
+        <img src="img/serve3_main.jpg" alt="" class="main_img">
+    </div>
+    
+    <section>
+        <div id="haroshi">
+            <img src="img/serve3_1.jpg" alt="">
+            <div class="box" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Japanese Artist Haroshi</h3>
+                <p>
+                   Katsushika City, Tokyo<br>
+                   “A perfect display to show imperfect things.” <br>
+                   To the artist, Haroshi, the high integrity of the<br> 
+                   USM Haller holds various significance.
+                </p>
+            </div>
+        </div>
+        
+        <div class="serve_img_wrap">
+            <img src="img/serve3_2.jpg" alt="">
+            <img src="img/serve3_3.jpg" alt="">
+            <img src="img/serve3_4.jpg" alt="">
+            <img src="img/serve3_5.jpg" alt="">
+            <img src="img/serve3_6.jpg" alt="">
+        </div>
+    </section>
+    
+    <div class="f_logo" data-aos="fade-left" data-aos-duration="2000">
+        <img src="img/haroshi.jpg" class="profile" alt="">
+    </div>
+    
+    <footer>
+        <div class="footer_wrap">
+            <div class="foo_logo">
+                <img src="img/usm_logo_png.png" id="f_logo" alt=""><br><br>
+                <p id="c_usm">ⓒ2020-USM</p>
+            </div>
+
+            <ul>
+                <li>
+                    <p>
+                      Tel +41 31 720 7272&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+                      info@usm.com
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                      FIND A SHOWROOM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+                      FAQ
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                      INSTAGRAM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FACEBOOK<br>
+                      YOUTUBE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TWITTER
+                    </p>
+                </li>
+
+                <li id="home_top">
+                    <p>
+                      &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME&nbsp;&nbsp;/ 
+                    </p>
+                </li>
+                
+                <div div style="cursor:pointer;" onclick="window.scrollTop(0,0);">
+                    <li class="go-to-top">TOP</li>
+                </div>
+            </ul>
+        </div>
+    </footer>
+    
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
